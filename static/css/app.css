@@ -431,15 +431,18 @@
 
 #results td {
   color: #3a3633;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   border: 0px none;
 }
 
 #results td div {
-  max-width: 350px;
+  /*max-width: 350px;
   max-height: 51px;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis;*/
+  max-width: 250px;
+  max-height: 251px;
+  overflow: scroll;
   white-space: pre;
 
   /*
